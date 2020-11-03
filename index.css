@@ -1,0 +1,41 @@
+body
+{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: consolas;
+    background-image: url(New1.jpg);
+    text-decoration: lawngreen;
+    
+}
+.container
+{
+    position: relative;
+    width: 450px;
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 5px 15px yellow;
+    box-sizing: content-box;
+    border: solid green;
+
+}
+.container:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255,255,0.1);
+    pointer-events: none;
+}
+input
+{
+    text-shadow: greenyellow;
+    text-decoration: solid rgb(144, 47, 255);
+    color: indigo;
+}
